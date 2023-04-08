@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<title>响应式</title> 
+<style>
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #d8a8ef;
+    color: #432121;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1 align="center">这是一个响应式网页的标题</h1>
+</div>
+
+<div class="row">
+
+
+
+<div class="col-9">
+<h2 align="center"></h2>、
+<center>
+<p>浪客剑心的简介</p>
+<p>《浪客剑心》（日文：るろうに剣心）是一部日本漫画家 和月伸宏 于1994年—1999年在日本《 周刊少年Jump 》上连载的少年漫画，单行本旧版共28卷，完全版共22卷。 [1] 截止到2020年，漫画单行本的累计发行量已突破7200万册。 [2] 该故事发生在明治维新初年的 东京 。 主人公绯村剑心在幕末是维新派的刽子手，人称“拔刀斋”，杀人无数。 在新时代，他使用一柄逆刃刀四处流浪，立志不再杀人。 在东京的神谷道场，剑心遇到了阿薰及一帮朋友们。 他是否找到了呢——剑的方向，心的归属。 逆刃之剑，也许是想就这样悄悄的藏住自己的锋芒的，可是剑终归是剑，能够出鞘的剑就更没有理由来说自己已经把自己隐藏得很好。</p>
+</center>
+</div>
+</div>
+<div class="col-3 menu">
+    <center>
+<ul>
+<li>第一个</li>
+<li>第二个</li>
+<li>第三个</li>
+<li>第四个</li>
+</ul>
+</center>
+</div>
+</body>
+<html>
